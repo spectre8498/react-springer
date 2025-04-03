@@ -1,0 +1,134 @@
+/* Dialog Container */
+.dialog-container {
+    padding: 12px;
+}
+
+/* Dialog Title */
+.dialog-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #1f2937;
+}
+
+/* Grid Layout for Inputs */
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+/* Input Labels */
+.input-label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+/* Read-only text */
+.input-text {
+    font-size: 1rem;
+    color: #1f2937;
+}
+
+/* File Upload Area */
+.file-upload-container {
+    /* margin-top: 20px; */
+}
+
+.file-drop-area {
+    height: 52px;
+    border: 2px dashed #9ca3af;
+    padding: 0 8px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 6px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.file-drop-area:focus-within {
+    border-color: #00324E;
+}
+
+.hidden-file-input {
+    display: none;
+}
+
+.file-input-label {
+    font-size: 0.875rem;
+    color: #6b7280;
+    cursor: pointer;
+}
+
+.browse-text {
+    color: #2563eb;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+/* Supported File Formats */
+.file-support-text {
+    font-size: 0.75rem;
+    color: #6b7280;
+    margin-top: 4px;
+    text-align: end;
+    width: 50%;
+}
+
+/* Uploaded File Preview */
+.uploaded-file {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid grey;
+    height: 32px;
+    width: 50%;
+    padding: 4px 8px;
+    border-radius: 6px;
+    margin-top: 8px;
+}
+
+.file-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.file-icon {
+    color: #6b7280;
+}
+
+/* Dialog Actions */
+.dialog-actions {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 16px;
+}
+
+.MuiSelect-root,
+.MuiInputBase-root,
+.MuiOutlinedInput-root {
+    height: 32px !important;
+}
+
+.uploaded-file {
+    height: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.uploaded-file-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 320px;
+    display: inline-block;
+    vertical-align: middle;
+}

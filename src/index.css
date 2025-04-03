@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media (prefers-color-scheme: light) {
+    :root {
+        color: #213547;
+        background-color: #ffffff;
+    }
+
+    a:hover {
+        color: #747bff;
+    }
+
+    button {
+        background-color: #f9f9f9;
+    }
+}
+
+.title-style {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: #00324E;
+}
+
+body {
+    color: #00324E;
+}
+
+.completed-progress-high-very-high {
+    color: #0070B0;
+    font-size: 12px;
+    border-radius: 32px;
+    background-color: #F1F5F9;
+    font-weight: 700;
+}
+
+.to-do-low {
+    color: #786400;
+    font-size: 12px;
+    border-radius: 32px;
+    background-color: #FCF6DA;
+    font-weight: 700;
+}
+
+.form-label{
+    letter-spacing: 2%;
+    color: #0070B0;
+}
